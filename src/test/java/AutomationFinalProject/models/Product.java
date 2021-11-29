@@ -1,10 +1,31 @@
 package AutomationFinalProject.models;
 
+import lombok.Data;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
+@Data
 public class Product {
 
-    private final String itemName = "Klēpjdators Apple MacBook Pro Retina with Touch Bar Space Grey, Apple M1, 8 GB, 256 GB, 13.3 \"";
-    private final String itemPrice = "1.344,00";
+    public String getItemName() {
+        return itemName;
+    }
+
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
+    }
+
+    public String getItemPrice() {
+        return itemPrice;
+    }
+
+    public void setItemPrice(String itemPrice) {
+        this.itemPrice = itemPrice;
+    }
+
+    String itemName;
+    String itemPrice;
+
 }
