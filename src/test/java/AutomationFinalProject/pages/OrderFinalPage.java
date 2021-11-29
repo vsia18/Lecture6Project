@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class OrderFinalPage {
-    private final By paymentOnSite = By.cssSelector("div[class='label-in clearfix']"); //Get second
+    private final By paymentOnSite = By.cssSelector("div[class='label-in clearfix']");
     private final By nameField = By.cssSelector("div[class='name']");
     private final By phoneField = By.cssSelector("div[class='address']");
     private final By finalPrice = By.cssSelector("div[class='price fr']");

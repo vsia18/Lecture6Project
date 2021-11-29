@@ -9,14 +9,14 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class CustomerOrderPage {
 
-    private final By getViaEmail = By.cssSelector("input[id='user_email']"); //Need the second
-    private final By submitUnregistered = By.cssSelector("input[class='users-session-form__submit']"); //need 2nd
-    private final By receiveOnSite = By.cssSelector("span[class='title']"); //Need the second element
-    private final By pickupPlace = By.cssSelector("div[class='pickup-point-name']"); //Need the second elem
+    private final By getViaEmail = By.cssSelector("input[id='user_email']");
+    private final By submitUnregistered = By.cssSelector("input[class='users-session-form__submit']");
+    private final By receiveOnSite = By.cssSelector("span[class='title']");
+    private final By pickupPlace = By.cssSelector("div[class='pickup-point-name']");
     private final By firstName = By.cssSelector("input[id='address_first_name']");
     private final By lastName = By.cssSelector("input[id='address_last_name']");
     private final By customerPhone = By.cssSelector("input[id='address_phone_number']");
-    private final By save = By.cssSelector("button[type='submit']"); //Need the first
+    private final By save = By.cssSelector("button[type='submit']");
     private final By proceedBtn = By.cssSelector("span[class='icon-arrow-right']");
 
 @Test
