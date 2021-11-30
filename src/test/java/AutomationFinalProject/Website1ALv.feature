@@ -1,4 +1,4 @@
-@WIP4
+@SmokeTests
 
 Feature: 1aLv product search and order process test
 

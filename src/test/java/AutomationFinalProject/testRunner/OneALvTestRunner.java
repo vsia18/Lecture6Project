@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"},
-        features = {"/Users/veronikaivanova/IdeaProjects/Lecture6Project/src/test/resources/features"},
+        features = {"src/test/java/AutomationFinalProject/Website1ALv.feature"},
         glue = {"AutomationFinalProject.stepDefinitions"},
-        tags = "@WIP4")
+        tags = "@SmokeTests")
 public class OneALvTestRunner {
 }
