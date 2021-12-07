@@ -19,7 +19,6 @@ public class CustomerOrderPage {
     private final By save = By.cssSelector("button[type='submit']");
     private final By proceedBtn = By.cssSelector("span[class='icon-arrow-right']");
 
-@Test
     public void getInUnregistered() {
         Customer customer = new Customer();
         $$(getViaEmail).get(1).sendKeys(customer.getEmail());

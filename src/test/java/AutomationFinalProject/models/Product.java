@@ -1,15 +1,16 @@
 package AutomationFinalProject.models;
 
-import lombok.Data;
+
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Data
 public class Product {
+    static String itemName;
+   static String itemPrice;
 
-    public String getItemName() {
+    public static String getItemName() {
         return itemName;
     }
 
@@ -17,15 +18,12 @@ public class Product {
         this.itemName = itemName;
     }
 
-    public String getItemPrice() {
+    public static String getItemPrice() {
         return itemPrice;
     }
 
     public void setItemPrice(String itemPrice) {
         this.itemPrice = itemPrice;
     }
-
-    String itemName;
-    String itemPrice;
 
 }

@@ -22,7 +22,6 @@ public class ProductChoicePage {
 
     Product product = new Product();
 
-    @Test
     public void findProduct() {
         $$(notebooksCategory).get(0).click();
         $$(notebookSubcategory).get(0).click();
