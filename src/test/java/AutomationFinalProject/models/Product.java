@@ -10,7 +10,7 @@ public class Product {
     static String itemName;
    static String itemPrice;
 
-    public static String getItemName() {
+    public String getItemName() {
         return itemName;
     }
 
@@ -18,7 +18,7 @@ public class Product {
         this.itemName = itemName;
     }
 
-    public static String getItemPrice() {
+    public String getItemPrice() {
         return itemPrice;
     }
 
